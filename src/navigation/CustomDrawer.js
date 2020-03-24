@@ -4,7 +4,6 @@ import {Avatar, Title, withTheme} from 'react-native-paper';
 import {DrawerItemList} from '@react-navigation/drawer';
 
 const CustomDrawer = props => {
-  console.log('CDDDD', props);
   return (
     <View style={styles.mainContainerStyle}>
       <Avatar.Text size={100} label="SP" />
